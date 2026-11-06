@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MiConjunto · La administración de tu conjunto, en el celular</title>
+<meta name="description" content="MiConjunto digitaliza los conjuntos residenciales: pagos en línea, reservas, portería con citofonía en el celular, correspondencia, obras con ARL y comunicación con la administración. Cuatro apps, una sola comunidad.">
+<meta name="theme-color" content="#5E35B1">
+<meta property="og:title" content="MiConjunto · Tu conjunto, en la palma de la mano">
+<meta property="og:description" content="Pagos, reservas, portería, correspondencia y avisos de tu conjunto residencial en una sola app.">
+<meta property="og:image" content="img/logo-residente.png">
+<link rel="icon" href="img/logo-residente.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="progreso" aria-hidden="true"></div>
+
+<header class="barra" id="barra">
+  <nav class="envoltura barra-contenido" aria-label="Principal">
+    <a class="marca" href="#inicio" aria-label="MiConjunto, inicio">
+      <img src="img/logo-residente.png" alt="" width="36" height="36">
+      <span>MiConjunto</span>
+    </a>
+    <button class="menu-boton" aria-expanded="false" aria-controls="menu" aria-label="Abrir el menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="menu" id="menu">
+      <li><a href="#producto">Producto</a></li>
+      <li><a href="#apps">Las 4 apps</a></li>
+      <li><a href="#como">Cómo funciona</a></li>
+      <li><a href="#precios">Precios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#preguntas">Preguntas</a></li>
+      <li><a class="boton boton-pequeno" href="#contacto">Contáctanos</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ PORTADA ============ -->
+  <section class="portada" id="inicio">
+    <div class="fondo-animado" aria-hidden="true">
+      <span class="mancha m1"></span><span class="mancha m2"></span><span class="mancha m3"></span>
+      <div class="rejilla"></div>
+    </div>
+    <div class="envoltura portada-grid">
+      <div class="portada-texto">
+        <p class="etiqueta aparecer"><span class="punto-vivo"></span> Hecho en Sabana Centro · Chía, Cajicá y Zipaquirá</p>
+        <h1 class="aparecer">Tu conjunto,<br><span class="degradado" id="rotativo">en la palma de la mano.</span></h1>
+        <p class="lead aparecer">Pagos en línea, reservas, portería con citofonía en el celular, paquetes y avisos de la administración. Todo lo que hoy se pierde entre chats, cuadernos y papeles, ahora en una sola app.</p>
+        <div class="acciones aparecer">
+          <a class="boton" href="#precios">Ver planes <span aria-hidden="true">→</span></a>
+          <a class="boton boton-claro" href="https://wa.me/573508141099?text=Hola%2C%20quiero%20conocer%20MiConjunto" target="_blank" rel="noopener">Agenda una demo</a>
+        </div>
+        <ul class="confianza aparecer">
+          <li><b>4</b> apps conectadas</li>
+          <li><b>Probado</b> en el Conjunto Carrara</li>
+          <li><b>Gratis</b> para residentes</li>
+        </ul>
+      </div>
+
+      <div class="portada-visual" aria-label="Vista de la app de residentes">
+        <div class="telefono inclinable">
+          <div class="telefono-pantalla">
+            <img src="img/residente-inicio.jpg" alt="Inicio de la app de residentes con los avisos de la administración" width="600" height="1220">
+          </div>
+        </div>
+        <div class="tarjeta-flotante f1">
+          <span class="icono-circulo naranja">🔔</span>
+          <div><b>Visita en portería</b><small>Ana Gómez · Torre 1 · 101</small></div>
+          <span class="mini-boton">Aceptar</span>
+        </div>
+        <div class="tarjeta-flotante f2">
+          <span class="icono-circulo verde">✓</span>
+          <div><b>Pago recibido</b><small>Administración noviembre · $285.000</small></div>
+        </div>
+        <div class="tarjeta-flotante f3">
+          <span class="icono-circulo morado">📦</span>
+          <div><b>Llegó un paquete</b><small>Recógelo en la portería</small></div>
+        </div>
+      </div>
+    </div>
+    <a class="bajar" href="#cifras" aria-label="Bajar"><span></span></a>
+  </section>
+
+  <!-- ============ CINTA ============ -->
+  <div class="cinta" aria-hidden="true">
+    <div class="cinta-pista">
+      <span>Pagos con Wompi</span><span>Reservas sin cruces</span><span>Citofonía en el celular</span><span>Paquetes y recibos</span><span>Obras con ARL</span><span>Parqueaderos</span><span>Chat con la administración</span><span>Código diario del conjunto</span>
+      <span>Pagos con Wompi</span><span>Reservas sin cruces</span><span>Citofonía en el celular</span><span>Paquetes y recibos</span><span>Obras con ARL</span><span>Parqueaderos</span><span>Chat con la administración</span><span>Código diario del conjunto</span>
+    </div>
+  </div>
+
+  <!-- ============ CIFRAS ============ -->
+  <section class="cifras" id="cifras">
+    <div class="envoltura cifras-grid">
+      <div class="cifra revelar"><span class="numero" data-contar="4">0</span><p>apps sobre el mismo código: residentes, administración, portería y plataforma</p></div>
+      <div class="cifra revelar"><span class="numero" data-contar="180" data-mas="+">0</span><p>servicios en la nube que mueven cada pantalla</p></div>
+      <div class="cifra revelar"><span class="numero" data-contar="187">0</span><p>pruebas automatizadas que se ejecutan en cada cambio</p></div>
+      <div class="cifra revelar"><span class="numero" data-contar="6">0</span><p>perfiles: administrador, contador, portería, propietario, arrendatario y plataforma</p></div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEMA ============ -->
+  <section class="seccion problema" id="producto">
+    <div class="envoltura dos-columnas">
+      <div class="revelar">
+        <p class="marca-pequena">El problema</p>
+        <h2>Administrar un conjunto no debería depender de un grupo de WhatsApp.</h2>
+        <p class="texto-suave">Hoy los pagos se confirman con fotos de comprobantes, las reservas se anotan en un cuaderno, el portero llama al citófono que nadie contesta y los paquetes se acumulan sin saber de quién son. La información se pierde y la confianza también.</p>
+      </div>
+      <ul class="antes-despues revelar">
+        <li><span class="antes">Comprobantes por chat</span><span class="flecha">→</span><span class="despues">Pago en línea con referencia</span></li>
+        <li><span class="antes">Cuaderno de reservas</span><span class="flecha">→</span><span class="despues">Calendario con horario y aforo</span></li>
+        <li><span class="antes">Citófono sin respuesta</span><span class="flecha">→</span><span class="despues">Aviso en el celular para aceptar o rechazar</span></li>
+        <li><span class="antes">Paquetes sin dueño</span><span class="flecha">→</span><span class="despues">Aviso al apartamento y entrega registrada</span></li>
+        <li><span class="antes">Obreros sin control</span><span class="flecha">→</span><span class="despues">Obras aprobadas con certificado de ARL</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FUNCIONES ============ -->
+  <section class="seccion funciones-seccion">
+    <div class="envoltura">
+      <div class="seccion-titulo revelar">
+        <p class="marca-pequena">Todo en un solo lugar</p>
+        <h2>Lo que tu conjunto puede hacer desde hoy</h2>
+        <p class="texto-suave">Cada función nació de una necesidad real que nos contaron administradores, porteros y residentes.</p>
+      </div>
+      <div class="funciones">
+        <article class="funcion revelar" style="--c:#5E35B1">
+          <div class="funcion-icono">💳</div>
+          <h3>Pagos y cartera</h3>
+          <p>Paga la administración en línea con Wompi o sube el comprobante. El estado de cuenta se actualiza solo y la administración ve la cartera al día.</p>
+        </article>
+        <article class="funcion revelar" style="--c:#283593">
+          <div class="funcion-icono">📅</div>
+          <h3>Reservas de zonas comunes</h3>
+          <p>Salón social, BBQ o cancha con horario, aforo y aprobación. Nunca más dos familias con la misma fecha.</p>
+        </article>
+        <article class="funcion revelar" style="--c:#E65100">
+          <div class="funcion-icono">🛎️</div>
+          <h3>Citofonía en el celular</h3>
+          <p>El portero anuncia la visita y en tu celular suena una alerta para aceptar o rechazar, aunque esté bloqueado.</p>
+        </article>
+        <article class="funcion revelar" style="--c:#00796B">
+          <div class="funcion-icono">📦</div>
+          <h3>Paquetes y recibos</h3>
+          <p>Te avisamos cuando llega algo a tu nombre y queda anotado quién lo recogió, a qué hora y qué guarda lo entregó.</p>
+        </article>
+        <article class="funcion revelar" style="--c:#5E35B1">
+          <div class="funcion-icono">🦺</div>
+          <h3>Obras con ARL</h3>
+          <p>El residente solicita la obra, sube la ARL de los trabajadores y la administración aprueba antes de que lleguen a la portería.</p>
+        </article>
+        <article class="funcion revelar" style="--c:#283593">
+          <div class="funcion-icono">🚗</div>
+          <h3>Vehículos y parqueaderos</h3>
+          <p>Registro de vehículos, parqueaderos asignados y cupos de visitantes que se liberan solos al registrar la salida.</p>
+        </article>
+        <article class="funcion revelar" style="--c:#E65100">
+          <div class="funcion-icono">💬</div>
+          <h3>Chat y publicaciones</h3>
+          <p>Avisos oficiales, circulares y un chat directo con la administración. Los mensajes importantes llegan como notificación.</p>
+        </article>
+        <article class="funcion revelar" style="--c:#00796B">
+          <div class="funcion-icono">🔐</div>
+          <h3>Código diario del conjunto</h3>
+          <p>Para registrarse hay que pedir en persona un código de 6 dígitos que cambia cada día. Solo entra quien de verdad vive allí.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APPS ============ -->
+  <section class="seccion apps-seccion" id="apps">
+    <div class="envoltura">
+      <div class="seccion-titulo revelar">
+        <p class="marca-pequena">Una comunidad, cuatro apps</p>
+        <h2>Cada persona tiene la herramienta que necesita</h2>
+        <p class="texto-suave">El portero no ve la cartera y el residente no ve los datos de los demás. Cada app tiene su color y muestra solo lo que le corresponde.</p>
+      </div>
+      <div class="pestanas revelar" role="tablist" aria-label="Apps de MiConjunto">
+        <button role="tab" aria-selected="true" aria-controls="app-residente" id="tab-residente" data-color="#5E35B1"><img src="img/logo-residente.png" alt="" width="28" height="28">Residentes</button>
+        <button role="tab" aria-selected="false" aria-controls="app-admin" id="tab-admin" data-color="#283593" tabindex="-1"><img src="img/logo-admin.png" alt="" width="28" height="28">Administración</button>
+        <button role="tab" aria-selected="false" aria-controls="app-porteria" id="tab-porteria" data-color="#E65100" tabindex="-1"><img src="img/logo-porteria.png" alt="" width="28" height="28">Portería</button>
+        <button role="tab" aria-selected="false" aria-controls="app-plataforma" id="tab-plataforma" data-color="#00796B" tabindex="-1"><img src="img/logo-plataforma.png" alt="" width="28" height="28">Plataforma</button>
+      </div>
+
+      <div class="paneles">
+        <div class="panel activo" role="tabpanel" id="app-residente" aria-labelledby="tab-residente">
+          <div class="panel-texto">
+            <img class="panel-logo" src="img/logo-residente.png" alt="Logo de la app MiConjunto para residentes" width="72" height="72">
+            <h3>MiConjunto · Residentes</h3>
+            <p>Para propietarios y arrendatarios. Todo lo de su apartamento en el bolsillo.</p>
+            <ul class="lista-chequeo">
+              <li>Paga la administración y descarga tu paz y salvo</li>
+              <li>Acepta o rechaza visitas desde el celular</li>
+              <li>Reserva zonas comunes y solicita obras</li>
+              <li>Recibe avisos de paquetes, recibos y circulares</li>
+              <li>Entra con tu huella, sin escribir la contraseña</li>
+            </ul>
+          </div>
+          <div class="panel-imagenes">
+            <div class="telefono pequeno"><div class="telefono-pantalla"><img src="img/residente-inicio.jpg" alt="Inicio de la app de residentes" loading="lazy"></div></div>
+            <div class="telefono pequeno desplazado"><div class="telefono-pantalla"><img src="img/residente-herramientas.jpg" alt="Herramientas de la app de residentes" loading="lazy"></div></div>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="app-admin" aria-labelledby="tab-admin" hidden>
+          <div class="panel-texto">
+            <img class="panel-logo" src="img/logo-admin.png" alt="Logo de la app de administración" width="72" height="72">
+            <h3>MiConjunto Admin</h3>
+            <p>Para el administrador, el consejo y el contador. Control total con menos trabajo.</p>
+            <ul class="lista-chequeo">
+              <li>Cartera en tiempo real y pagos verificados</li>
+              <li>Aprueba reservas y obras con un toque</li>
+              <li>Publica avisos que llegan como notificación</li>
+              <li>Gestiona residentes, personal y parqueaderos</li>
+              <li>Ve el código diario del conjunto para los nuevos</li>
+            </ul>
+          </div>
+          <div class="panel-imagenes">
+            <div class="telefono pequeno"><div class="telefono-pantalla"><img src="img/admin-inicio.jpg" alt="Inicio de la app de administración" loading="lazy"></div></div>
+            <div class="telefono pequeno desplazado"><div class="telefono-pantalla"><img src="img/admin-herramientas.jpg" alt="Herramientas de la app de administración" loading="lazy"></div></div>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="app-porteria" aria-labelledby="tab-porteria" hidden>
+          <div class="panel-texto">
+            <img class="panel-logo" src="img/logo-porteria.png" alt="Logo de la app de portería" width="72" height="72">
+            <h3>MiConjunto Portería</h3>
+            <p>Para los guardas de turno. Rápida, clara y sin datos de cartera.</p>
+            <ul class="lista-chequeo">
+              <li>Anuncia visitas a pie o en vehículo</li>
+              <li>Asigna el parqueadero de visitantes libre</li>
+              <li>Registra paquetes y entregas con el nombre de quien recoge</li>
+              <li>Directorio por torre y apartamento</li>
+              <li>Minuta del turno y quién está dentro del conjunto</li>
+            </ul>
+          </div>
+          <div class="panel-imagenes">
+            <div class="telefono pequeno maqueta naranja-fondo">
+              <div class="maqueta-pantalla">
+                <p class="maqueta-titulo">Portería</p>
+                <div class="maqueta-metricas"><span><b>3</b>visitas dentro</span><span><b>5</b>paquetes</span><span><b>2</b>parqueaderos</span><span><b>12</b>hoy</span></div>
+                <div class="maqueta-visita"><b>Juan Pérez</b><small>Torre 2 · Apto 304 · ABC123</small><em class="estado ok">Autorizada</em></div>
+                <div class="maqueta-visita"><b>Domicilio Rappi</b><small>Torre 1 · Apto 101</small><em class="estado espera">Esperando respuesta</em></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="app-plataforma" aria-labelledby="tab-plataforma" hidden>
+          <div class="panel-texto">
+            <img class="panel-logo" src="img/logo-plataforma.png" alt="Logo de la app de plataforma" width="72" height="72">
+            <h3>MiConjunto Plataforma</h3>
+            <p>Para nuestro equipo. Así damos soporte a todos los conjuntos.</p>
+            <ul class="lista-chequeo">
+              <li>Panel con las cifras de todos los conjuntos</li>
+              <li>Alta de conjuntos y de sus administradores</li>
+              <li>Auditoría completa de cada operación</li>
+              <li>Límite de celulares por conjunto</li>
+              <li>Soporte sin entrar a los datos privados</li>
+            </ul>
+          </div>
+          <div class="panel-imagenes">
+            <div class="telefono pequeno maqueta verde-fondo">
+              <div class="maqueta-pantalla">
+                <p class="maqueta-titulo">Plataforma</p>
+                <div class="maqueta-metricas"><span><b>20</b>conjuntos</span><span><b>3.000</b>aptos</span><span><b>1.200</b>pagos/mes</span><span><b>6</b>perfiles</span></div>
+                <div class="maqueta-visita"><b>Conjunto Carrara</b><small>Zipaquirá · 160 apartamentos</small><em class="estado ok">Activo</em></div>
+                <div class="maqueta-visita"><b>Inicio de sesión</b><small>admin · hace 2 min</small><em class="estado espera">Auditoría</em></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CÓMO FUNCIONA ============ -->
+  <section class="seccion como" id="como">
+    <div class="envoltura">
+      <div class="seccion-titulo revelar">
+        <p class="marca-pequena">Cómo funciona</p>
+        <h2>En marcha en menos de una semana</h2>
+      </div>
+      <ol class="linea-tiempo">
+        <li class="revelar"><span class="paso-numero">1</span><h3>Visitamos tu conjunto</h3><p>Configuramos torres, apartamentos, zonas comunes y parqueaderos. Si tienes la lista en Excel, la cargamos de una vez.</p></li>
+        <li class="revelar"><span class="paso-numero">2</span><h3>Capacitamos al equipo</h3><p>Administración y portería aprenden a usar sus apps en una sesión presencial. Nada de manuales eternos.</p></li>
+        <li class="revelar"><span class="paso-numero">3</span><h3>Los residentes se unen</h3><p>Descargan la app, eligen su conjunto e ingresan el código del día que les da la portería. Listo.</p></li>
+        <li class="revelar"><span class="paso-numero">4</span><h3>Te acompañamos</h3><p>Soporte cercano de un equipo de la región, actualizaciones incluidas y mejoras según lo que pida tu comunidad.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ SEGURIDAD ============ -->
+  <section class="seccion seguridad-seccion">
+    <div class="envoltura dos-columnas">
+      <div class="revelar">
+        <p class="marca-pequena">Seguridad y privacidad</p>
+        <h2>Tus datos, protegidos como deben estar.</h2>
+        <p class="texto-suave">Tratamos la información según la Ley 1581 de 2012 de protección de datos personales. Cada perfil ve solo lo que necesita, y cada operación queda registrada.</p>
+      </div>
+      <div class="sellos revelar">
+        <div class="sello"><span>🛡️</span><b>Acceso por perfil</b><small>El portero no ve la cartera; el residente solo ve su apartamento.</small></div>
+        <div class="sello"><span>📱</span><b>Un celular por sesión</b><small>Un celular nuevo pide un código de verificación.</small></div>
+        <div class="sello"><span>👆</span><b>Huella en tu celular</b><small>La huella nunca sale del teléfono; MiConjunto no la guarda.</small></div>
+        <div class="sello"><span>🧾</span><b>Auditoría</b><small>Quién hizo qué y cuándo, para cada operación.</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIO ============ -->
+  <section class="testimonio">
+    <div class="envoltura revelar">
+      <p class="marca-pequena claro">Lo validamos con usuarios reales</p>
+      <blockquote>
+        <p>“Tener la ARL ahí mismo para aprobar al maestro antes de que llegue a portería es una maravilla.”</p>
+        <footer>Administrador del Conjunto Residencial Carrara, Zipaquirá · prueba con 5 usuarios</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ============ PRECIOS ============ -->
+  <section class="seccion precios-seccion" id="precios">
+    <div class="envoltura">
+      <div class="seccion-titulo revelar">
+        <p class="marca-pequena">Precios claros, sin letra pequeña</p>
+        <h2>Menos de lo que cuesta un tinto por apartamento al mes</h2>
+        <p class="texto-suave">Un solo precio por conjunto, con todas las funciones incluidas. Para los residentes la app es siempre gratis.</p>
+      </div>
+      <div class="planes">
+        <article class="plan revelar">
+          <p class="plan-nombre">Implementación</p>
+          <p class="plan-precio"><span class="moneda">$</span><span data-contar="500000" data-miles="1">0</span></p>
+          <p class="plan-periodo">pago único por conjunto</p>
+          <ul class="lista-chequeo">
+            <li>Visita y configuración completa del conjunto</li>
+            <li>Carga de torres y apartamentos desde Excel</li>
+            <li>Capacitación presencial a administración y portería</li>
+            <li>Acompañamiento en el lanzamiento con los residentes</li>
+          </ul>
+          <a class="boton boton-claro ancho" href="#contacto">Quiero empezar</a>
+        </article>
+        <article class="plan destacado revelar">
+          <span class="cinta-plan">Primer mes gratis</span>
+          <p class="plan-nombre">Mantenimiento mensual</p>
+          <p class="plan-precio"><span class="moneda">$</span><span data-contar="164900" data-miles="1">0</span></p>
+          <p class="plan-periodo">al mes por conjunto · ≈ $1.100 por apartamento*</p>
+          <ul class="lista-chequeo">
+            <li>Las 4 apps con todas sus funciones</li>
+            <li>Residentes, guardas y administradores ilimitados</li>
+            <li>Servidores, seguridad y copias de respaldo</li>
+            <li>Actualizaciones y soporte técnico cercano</li>
+            <li>Notificaciones en el celular sin costo adicional</li>
+          </ul>
+          <a class="boton ancho" href="https://wa.me/573508141099?text=Hola%2C%20quiero%20el%20primer%20mes%20gratis%20de%20MiConjunto" target="_blank" rel="noopener">Probar un mes gratis</a>
+        </article>
+        <article class="plan revelar">
+          <p class="plan-nombre">Residentes</p>
+          <p class="plan-precio"><span class="moneda">$</span>0</p>
+          <p class="plan-periodo">siempre</p>
+          <ul class="lista-chequeo">
+            <li>App gratis para propietarios y arrendatarios</li>
+            <li>Pagos en línea con pasarela reconocida</li>
+            <li>Comprobante con referencia en cada pago</li>
+            <li>Sin publicidad invasiva</li>
+          </ul>
+          <a class="boton boton-claro ancho" href="#apps">Ver la app</a>
+        </article>
+      </div>
+      <p class="nota-precio">*Calculado con un conjunto promedio de 150 apartamentos. Valores en pesos colombianos. Un conjunto que hoy pierde horas conciliando pagos y respondiendo chats recupera ese tiempo desde el primer mes.</p>
+    </div>
+  </section>
+
+  <!-- ============ HOJA DE RUTA ============ -->
+  <section class="seccion ruta">
+    <div class="envoltura">
+      <div class="seccion-titulo revelar">
+        <p class="marca-pequena">Lo que viene</p>
+        <h2>MiConjunto sigue creciendo</h2>
+      </div>
+      <div class="ruta-grid">
+        <div class="ruta-item hecho revelar"><span class="ruta-estado">Disponible</span><h3>4 apps Android</h3><p>Residentes, administración, portería y plataforma.</p></div>
+        <div class="ruta-item revelar"><span class="ruta-estado">Próximamente</span><h3>Versión para iPhone</h3><p>La misma experiencia en iOS.</p></div>
+        <div class="ruta-item revelar"><span class="ruta-estado">Próximamente</span><h3>Panel web</h3><p>Para administrar desde el computador.</p></div>
+        <div class="ruta-item revelar"><span class="ruta-estado">En diseño</span><h3>Asistente con IA</h3><p>Respuestas a las consultas frecuentes de los residentes.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NOSOTROS ============ -->
+  <section class="seccion nosotros" id="nosotros">
+    <div class="envoltura">
+      <div class="seccion-titulo revelar">
+        <p class="marca-pequena">Sobre nosotros</p>
+        <h2>Un equipo de la región, para los conjuntos de la región</h2>
+        <p class="texto-suave">Somos estudiantes de Ingeniería de Sistemas y Computación de la Universidad de Cundinamarca, sede Chía. Vivimos los mismos problemas en nuestros conjuntos y decidimos resolverlos.</p>
+      </div>
+      <div class="mision-vision">
+        <div class="mv revelar"><h3>Misión</h3><p>Hacer que la vida en propiedad horizontal sea más transparente, segura y sencilla, con tecnología que cualquier residente, guarda o administrador pueda usar desde el primer día.</p></div>
+        <div class="mv revelar"><h3>Visión</h3><p>Ser en 2028 la plataforma de referencia para los conjuntos residenciales de Sabana Centro y llegar después a toda Cundinamarca.</p></div>
+      </div>
+      <div class="equipo">
+        <article class="persona revelar">
+          <div class="avatar" style="--c:#5E35B1">SC</div>
+          <h3>Samuel Castellanos Rivera</h3>
+          <p>Cofundador · Ingeniería de Sistemas</p>
+        </article>
+        <article class="persona revelar">
+          <div class="avatar" style="--c:#283593">JR</div>
+          <h3>Juan Sebastián Rodríguez Blanco</h3>
+          <p>Cofundador · Ingeniería de Sistemas</p>
+        </article>
+        <article class="persona revelar">
+          <div class="avatar" style="--c:#E65100">SM</div>
+          <h3>Sergio Steeven Moreno Forero</h3>
+          <p>Cofundador · Ingeniería de Sistemas</p>
+        </article>
+      </div>
+      <div class="tecnologia revelar">
+        <p>Construido con</p>
+        <ul><li>Kotlin · Android</li><li>Spring Boot</li><li>PostgreSQL · Supabase</li><li>Firebase</li><li>Wompi</li><li>Render</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PREGUNTAS ============ -->
+  <section class="seccion preguntas" id="preguntas">
+    <div class="envoltura estrecha">
+      <div class="seccion-titulo revelar">
+        <p class="marca-pequena">Preguntas frecuentes</p>
+        <h2>Resolvemos tus dudas</h2>
+      </div>
+      <details class="revelar"><summary>¿Los residentes tienen que pagar por la app?</summary><p>No. El conjunto paga el mantenimiento mensual y la app es gratis para todos los propietarios y arrendatarios.</p></details>
+      <details class="revelar"><summary>¿Qué pasa si el apartamento está arrendado?</summary><p>El arrendatario recibe las visitas, los paquetes y los avisos del día a día; el propietario recibe lo que le corresponde a él, como la cartera y las asambleas.</p></details>
+      <details class="revelar"><summary>¿Cómo evitan que se registre alguien que no vive en el conjunto?</summary><p>Para crear la cuenta hay que ingresar el código de 6 dígitos del conjunto, que cambia cada día y solo se entrega en persona en la portería o la administración.</p></details>
+      <details class="revelar"><summary>¿Los pagos en línea son seguros?</summary><p>Se hacen con Wompi, una pasarela de pagos colombiana reconocida. MiConjunto nunca ve ni guarda los datos de tu tarjeta.</p></details>
+      <details class="revelar"><summary>¿Y si el residente no tiene datos o el celular está apagado?</summary><p>La portería puede registrar la visita como siempre y comunicarse con el apartamento; todo queda anotado en la minuta del turno.</p></details>
+      <details class="revelar"><summary>¿Cuánto tarda la implementación?</summary><p>Normalmente menos de una semana: una visita para configurar el conjunto, una capacitación y el lanzamiento con los residentes.</p></details>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="seccion contacto" id="contacto">
+    <div class="envoltura">
+      <div class="contacto-tarjeta revelar">
+        <div>
+          <p class="marca-pequena claro">Contáctanos</p>
+          <h2>¿Quieres verlo funcionando en tu conjunto?</h2>
+          <p>Escríbenos o llámanos y te mostramos las cuatro apps. El primer mes de mantenimiento corre por nuestra cuenta.</p>
+          <div class="acciones">
+            <a class="boton boton-blanco" href="https://wa.me/573508141099?text=Hola%2C%20quiero%20conocer%20MiConjunto" target="_blank" rel="noopener">WhatsApp · 350 814 1099</a>
+            <a class="boton boton-contorno" href="tel:+573508141099">Llamar ahora</a>
+          </div>
+        </div>
+        <ul class="datos-contacto">
+          <li><span>📍</span><div><b>Dónde estamos</b>Universidad de Cundinamarca, sede Chía</div></li>
+          <li><span>📞</span><div><b>Teléfono y WhatsApp</b><a href="tel:+573508141099">+57 350 814 1099</a></div></li>
+          <li><span>🗺️</span><div><b>Cobertura</b>Chía, Cajicá y Zipaquirá</div></li>
+          <li><span>💻</span><div><b>Código del proyecto</b><a href="https://github.com/samucr27/Conjunto-Fronted" target="_blank" rel="noopener">Apps Android</a> · <a href="https://github.com/sjjrodriguez/Conjunto-Backend" target="_blank" rel="noopener">Servidor</a></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="envoltura pie-grid">
+    <a class="marca" href="#inicio"><img src="img/logo-residente.png" alt="" width="32" height="32"><span>MiConjunto</span></a>
+    <p>Gestión transparente para tu conjunto residencial.</p>
+    <p class="pie-pequeno">Proyecto de emprendimiento · Ingeniería de Sistemas y Computación · Universidad de Cundinamarca, 2026</p>
+  </div>
+</footer>
+
+<a class="whatsapp-flotante" href="https://wa.me/573508141099?text=Hola%2C%20quiero%20conocer%20MiConjunto" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5 0-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5l-.6-.3z"/></svg>
+</a>
+
+<script src="app.js" defer></script>
+</body>
+</html>
