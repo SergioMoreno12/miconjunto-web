@@ -307,3 +307,25 @@ p { margin: 0 0 1em; }
   .desplazado { margin-top: 28px; }
   .portada-visual { min-height: 480px; }
 }
+
+/* Las pestañas: un panel oculto no se muestra aunque .panel use grid */
+.panel[hidden] { display: none !important; }
+:root { color-scheme: light; }
+.maqueta .maqueta-pantalla { overflow: hidden; }
+@media (max-width: 520px) {
+  .telefono.pequeno.maqueta { width: min(250px, 66vw); }
+  .maqueta .maqueta-pantalla { padding: 40px 10px 10px; gap: 8px; }
+  .maqueta-titulo { font-size: 1.15rem; }
+  .maqueta-metricas { gap: 6px; }
+  .maqueta-metricas span { min-height: 54px; padding: 8px; font-size: .66rem; }
+  .maqueta-metricas b { font-size: 1.05rem; }
+  .maqueta-visita { font-size: .72rem; padding: 8px 10px; }
+  .maqueta-visita .estado { font-size: .66rem; }
+}
+@media (max-width: 600px) {
+  .tarjeta-flotante { max-width: 210px; padding: 8px 12px; gap: 8px; font-size: .74rem; }
+  .tarjeta-flotante b { font-size: .8rem; }
+  .tarjeta-flotante .icono-circulo { width: 30px; height: 30px; font-size: .9rem; }
+  .f1 { top: -2%; left: -2%; } .f2 { bottom: 2%; right: -2%; }
+  .bajar { display: none; }
+}
